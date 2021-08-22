@@ -1,3 +1,3 @@
-module Module {
-	requires java.desktop;
-}
+//module Module {
+//	requires java.desktop;
+//}

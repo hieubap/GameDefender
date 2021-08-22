@@ -1,21 +1,17 @@
 package Primary;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.util.ArrayList;
-import java.util.Random;
-
-import javax.swing.JPanel;
-
 import Devolop.Setup;
 import Tower.Element;
 import Tower.Tower;
+
+import java.awt.*;
+import java.util.ArrayList;
 /*
  * chu y clear array se clear ca aray nam trong mang 2 chieu
  * 
  */
 @SuppressWarnings("serial")
-public class Enemy extends JPanel{
+public class Enemy{
 	private int PIXEL = Map.PIXEL;
 	private int sx,sy,x,y,w,t,k,gold;
 	private double life,plife;
